@@ -1,0 +1,320 @@
+button,
+input,
+textarea,
+select
+{
+    border: none;
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+}
+img{
+    border-radius: var(--border-radius);
+}
+
+:root{
+    /*default values*/
+    --padding:8px;
+    --border-radius:4px;
+
+    /*size*/
+    --w100:100%;
+    --w50:50%;
+
+    /*duratio */
+    --time-300: 0.3s;
+    --time-500: 0.5s;
+    --time-1000: 1s;
+    --time-1500: 1.5s;
+}
+button{
+    cursor: pointer;
+    transition: var(--time-500);
+}
+button:hover{
+    transition: var(--time-500);
+    background-color: var(--blue-400);
+}
+
+/* padding*/
+.p-1{
+    padding: 0.5em;
+}
+.p-2{
+    padding: 1em;
+}
+.p-3{
+    padding: 16pxem;
+}
+/* bur effect */
+.blur-50{
+    /* background-color: var(--blue-500); */
+    background-color: rgba(121, 121, 254, 0.152);
+    backdrop-filter: blur(50px) ;
+}
+
+/* padding top*/
+.p-t-1{
+    padding-top: 8px;
+}
+.p-t-2{
+    padding-top: 12px;
+}
+.p-t-3{
+    padding-top: 16px;
+}
+p-t-4{
+    padding-top: 24px;
+}
+
+p-t-5{
+    padding-top: 24px;
+}
+
+/*padding bottom*/
+.p-b-1{
+    padding-bottom: 8px;
+}
+.p-b-2{
+    padding-bottom: 12px;
+}
+.p-b-3{
+    padding-bottom: 16px;
+}
+p-b-4{
+    padding-bottom: 24px;
+}
+
+p-b-5{
+    padding-bottom: 24px;
+}
+/*padding left*/
+.p-l-1{
+    padding-left: 8px;
+}
+.p-l-2{
+    padding-left: 12px;
+}
+.p-l-3{
+    padding-left: 16px;
+}
+p-l-4{
+    padding-left: 24px;
+}
+
+p-l-5{
+    padding-left: 32px;
+}
+
+/*padding right*/
+.p-r-1{
+    padding-right: 8px;
+}
+.p-r-2{
+    padding-right: 12px;
+}
+.p-r-3{
+    padding-right: 16px;
+}
+p-r-4{
+    padding-right: 24px;
+}
+
+p-r-5{
+    padding-right: 32px;
+}
+
+
+/*border radius */
+.rnd{
+    border-radius: var(--border-radius);
+}
+.rnd-full{
+    border-radius: 10em;
+}
+.rnd-s{
+    border-radius: 1em;
+}
+/* margin */
+.m-t-1{
+    margin-top: 8px;
+}
+.m-t-2{
+    margin-top: 12px;
+}
+.m-t-3{
+    margin-top: 16px;
+}
+m-t-4{
+    margin-top: 24px;
+}
+
+m-t-5{
+    margin-top: 32px;
+}
+
+/*margin bottom*/
+.m-b-1{
+    padding-bottom: 8px;
+}
+.m-b-2{
+    padding-bottom: 12px;
+}
+.m-b-3{
+    padding-bottom: 16px;
+}
+m-b-4{
+    padding-bottom: 24px;
+}
+
+m-b-5{
+    padding-bottom: 32px;
+}
+/*margin left*/
+.m-l-1{
+    margin-left: 8px;
+}
+.m-l-2{
+    margin-left: 12px;
+}
+.m-l-3{
+    margin-left: 16px;
+}
+m-l-4{
+    margin-left: 24px;
+}
+
+m-l-5{
+    padding-left: 32px;
+}
+
+/*margin right*/
+.m-r-1{
+    margin-right: 8px;
+}
+.m-r-2{
+    margin-right: 12px;
+}
+.m-r-3{
+    margin-right: 16px;
+}
+m-r-4{
+    margin-right: 24px;
+}
+
+m-r-5{
+    margin-right: 24px;
+}
+m-auto{
+    margin: auto;
+}
+
+
+
+/*-----------------------Font----------------*/
+/* size */
+.text-small{
+    font-size: 16px;
+}
+
+.text-small{
+    font-size: 16px;
+}
+
+/* link */
+a{
+    text-decoration: none;
+}
+
+/* position */
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
+}
+.fixed{
+    position: fixed
+}
+
+/* shadows */
+/* dark */
+.shadow-dark-1{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.shadow-dark-2{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.shadow-dark-3{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.shadow-dark-4{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.shadow-dark-5{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.shadow-dark-6{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.shadow-dark-7{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.shadow-dark-8{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.shadow-dark-9{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.shadow-dark-10{
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+
+/* light  */
+.shadow-light-1{
+    box-shadow: rgba(255, 255, 255, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.shadow-light-2{
+    box-shadow: rgba(204, 204, 213, 0.2) 0px 7px 29px 0px;
+}
+.shadow-light-3{
+    box-shadow: rgba(255, 255, 255, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.shadow-light-4{
+    box-shadow: rgba(255, 255, 255, 0.16) 0px 1px 4px;
+}
+.shadow-light-5{
+    box-shadow: rgba(190, 188, 188, 0.2) 0px 2px 8px 0px;
+}
+.shadow-light-6{
+    box-shadow: rgba(210, 207, 223, 0.15) 0px 48px 100px 0px;
+}
+.shadow-light-7{
+    box-shadow: rgba(95, 95, 102, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.shadow-light-8{
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.shadow-light-9{
+    /* filter: drop-shadow(rgba(255, 255, 255, 0.25) 0px 25px 50px -12px); */
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 25px 50px -12px;
+}
+.shadow-light-10{
+    box-shadow: rgba(255, 255, 255, 0.04) 0px 3px 5px;
+}
+
+
+/* overflow   */
+.o-h{
+    overflow: hidden;
+}
+.o-x-h{
+    overflow-x: hidden;
+}
+.o-y-h{
+    overflow-y: hidden;
+}

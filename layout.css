@@ -1,0 +1,16 @@
+.flex{
+    display: flex;
+}
+.block{
+    display: block;
+}
+.grid{
+    display: grid;
+}
+
+.inline{
+    display: inline;
+}
+.d-none{
+    display: none;
+}
