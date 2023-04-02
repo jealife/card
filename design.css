@@ -132,7 +132,10 @@ p-r-5{
     border-radius: 10em;
 }
 .rnd-s{
-    border-radius: 1em;
+    border-radius: 0.5m;
+}
+.rnd-l{
+  border-radius:1rem;
 }
 /* margin */
 .m-t-1{
