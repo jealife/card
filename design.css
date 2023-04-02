@@ -62,11 +62,11 @@ button:hover{
 .p-t-3{
     padding-top: 16px;
 }
-p-t-4{
+.p-t-4{
     padding-top: 24px;
 }
 
-p-t-5{
+.p-t-5{
     padding-top: 24px;
 }
 
@@ -84,7 +84,7 @@ p-b-4{
     padding-bottom: 24px;
 }
 
-p-b-5{
+.p-b-5{
     padding-bottom: 24px;
 }
 /*padding left*/
@@ -101,7 +101,7 @@ p-l-4{
     padding-left: 24px;
 }
 
-p-l-5{
+.p-l-5{
     padding-left: 32px;
 }
 
@@ -115,11 +115,11 @@ p-l-5{
 .p-r-3{
     padding-right: 16px;
 }
-p-r-4{
+.p-r-4{
     padding-right: 24px;
 }
 
-p-r-5{
+.p-r-5{
     padding-right: 32px;
 }
 
@@ -147,11 +147,11 @@ p-r-5{
 .m-t-3{
     margin-top: 16px;
 }
-m-t-4{
+.m-t-4{
     margin-top: 24px;
 }
 
-m-t-5{
+.m-t-5{
     margin-top: 32px;
 }
 
@@ -165,11 +165,11 @@ m-t-5{
 .m-b-3{
     padding-bottom: 16px;
 }
-m-b-4{
+.m-b-4{
     padding-bottom: 24px;
 }
 
-m-b-5{
+.m-b-5{
     padding-bottom: 32px;
 }
 /*margin left*/
@@ -186,7 +186,7 @@ m-l-4{
     margin-left: 24px;
 }
 
-m-l-5{
+.m-l-5{
     padding-left: 32px;
 }
 
@@ -200,14 +200,14 @@ m-l-5{
 .m-r-3{
     margin-right: 16px;
 }
-m-r-4{
+.m-r-4{
     margin-right: 24px;
 }
 
-m-r-5{
+.m-r-5{
     margin-right: 24px;
 }
-m-auto{
+.m-auto{
     margin: auto;
 }
 
